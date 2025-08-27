@@ -1,74 +1,68 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# My Grammar App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **React.js** web application that provides real-time grammar and spelling suggestions while you type, using the **LanguageTool API**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Type any text and get grammar/spelling suggestions instantly.
+- Click on a suggested word to replace the current word.
+- Supports multiple words; suggestions appear for the last typed word.
+- “Search” button shows your current input in a popup.
+- “Exit” button clears the input and suggestions.
+- Clean, modern, and responsive UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Frontend:** React.js, HTML, CSS
+- **API:** LanguageTool API
+- **Hosting:** Vercel / Netlify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## How to Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/your-username/my-grammar-app.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project folder:
 
-### `npm run eject`
+   ```bash
+   cd my-grammar-app
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Live Demo
 
-### Code Splitting
+[Click here to see the live app](https://my-grammar-app-gamma.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Internshala_spell_suggest
->>>>>>> 9633119af0b605a85c8cdb70be0f29926601d858
+1. Type text in the input box.
+2. See suggestions for the current word.
+3. Click a suggestion to replace the word.
+4. Press **Search** to see your typed text in a popup.
+5. Press **Exit** to clear the input and suggestions.
